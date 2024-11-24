@@ -13,8 +13,11 @@ A lightweight web application that allows users to apply image transformations l
   - Gaussian blur effect with 5x5 kernel
 - **Side-by-side Comparison**: View original and transformed images simultaneously
 
-## Demo
-[Click here!]()
+## Website Demo
+[Click here!](https://1frazel.github.io/Simple-Image-Transforming-Website-Computer-Graphics/)
+
+## Complete Report
+[Click here!](https://binusianorg-my.sharepoint.com/personal/m_nurkhafif_binus_ac_id/_layouts/15/guestaccess.aspx?share=EXAJbXPXtxxOnfpfWQvmNocBzgT62oiWo2Ce-0OXvRyGEg&e=NHxJKq)
 
 ## Structures
 
