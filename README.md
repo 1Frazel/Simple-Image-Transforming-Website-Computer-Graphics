@@ -16,6 +16,8 @@ A lightweight web application that allows users to apply image transformations l
 ## Demo
 [Click here!]()
 
+##Structures
+
 ### Homepage
 - Upload your image using the file input
 - Select desired transformation (Grayscale or Gaussian Blur)
