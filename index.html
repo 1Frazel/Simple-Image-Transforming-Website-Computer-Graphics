@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="pageTitle">Upload and Transform Your Image</h1>
+        
+        <div id="uploadSection" class="upload-section">
+            <div>
+                <p>Choose an image:</p>
+                <input type="file" id="imageInput" accept="image/*" class="file-input">
+            </div>
+            <div>
+                <p>Choose an option:</p>
+                <select id="transformOption">
+                    <option value="grayscale">Grayscale</option>
+                    <option value="gaussian">Gaussian Blur</option>
+                </select>
+            </div>
+            <button id="convertBtn">Upload and Convert</button>
+        </div>
+
+        <div id="resultSection" class="result-container">
+            <div class="image-comparison">
+                <div class="image-box">
+                    <h3>Original Image</h3>
+                    <canvas id="originalCanvas"></canvas>
+                </div>
+                <div class="image-box">
+                    <h3>Transformed Image</h3>
+                    <canvas id="transformedCanvas"></canvas>
+                </div>
+            </div>
+            <button id="goBack">Go Back</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
