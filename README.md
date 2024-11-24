@@ -16,7 +16,7 @@ A lightweight web application that allows users to apply image transformations l
 ## Demo
 [Click here!]()
 
-##Structures
+## Structures
 
 ### Homepage
 - Upload your image using the file input
